@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import {FaMapMarker} from 'react-icons/fa'
 
+
 const JobListings = ({ job }) => {
     const [showFullDescription, setshowFullDescription] = useState(false);
 
